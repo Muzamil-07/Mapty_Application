@@ -1,0 +1,254 @@
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"MEDIA QUERIES"<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+/* >>>>>>>>>>>>>>>>>>>>Large Devices */
+@media(min-width:1151px) and (max-width:1270px){
+    .f2_form .svg-inline--fa.fa-w-11 {
+        width: 15px;
+    }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>Medium Devices */
+@media(min-width:992px) and (max-width:1150px) {
+.heading {
+    font-size: 15px;
+    font-weight: 600;
+}
+.num_val {
+    font-size: 13px;
+}
+.units {
+    font-size: 8px;
+    padding-left: 1.4px;
+}
+.f1 .svg-inline--fa,
+.f2 .svg-inline--fa {
+    font-size: 11px;
+}
+.svg-inline--fa.fa-w-16,
+.svg-inline--fa.fa-w-11 {
+    width: 32px;
+}
+
+.f1 {
+    right: 32px;
+}
+
+/********* Form ********/
+#Type,
+.w_e input {
+    width: 70px;
+    height: 18px;
+}
+.col-3 {
+    font-size: 13px;
+}
+
+.sec_option {
+    padding-top: 14px;
+}
+
+.second_inp {
+    margin-top: 12px;
+}
+
+input[type="text"i],
+.error_msg {
+    font-size: 12px;
+}
+.f2_form .svg-inline--fa.fa-w-11 {
+    width: 15px;
+}
+
+.w_e,
+.upper_nav {
+    width: 88%;
+}
+
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>Small Devices */
+@media(min-width:768px) and (max-width:991px) {
+
+    .w_e {
+        width: 60%;
+    }
+
+    .upper_nav {
+        width: 60%;
+    }
+
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>Extra Small Devices */
+@media(min-width:576px) and (max-width:767px){
+
+
+}
+
+/* >>>>>>>>>>>>>>>>>>>>Extra-Extra Small Devices */
+@media(max-width:575px) {
+.heading {
+    font-size: 15px;
+    font-weight: 600;
+}
+.logo {
+    width: 100px;
+}
+
+.logo_container {
+    padding-top: 25px;
+}
+
+.num_val {
+    font-size: 13px;
+}
+
+.units {
+    font-size: 8px;
+    padding-left: 1.4px;
+}
+
+.f1 .svg-inline--fa,
+.f2 .svg-inline--fa {
+    font-size: 11px;
+}
+
+.svg-inline--fa.fa-w-16,
+.svg-inline--fa.fa-w-11 {
+    width: 32px;
+}
+
+.f1 {
+    right: 32px;
+}
+
+/********* Form ********/
+#Type,
+.w_e input {
+    width: 70px;
+    height: 18px;
+}
+
+.col-3 {
+    font-size: 13px;
+}
+
+.sec_option {
+    padding-top: 14px;
+}
+
+.second_inp {
+    margin-top: 12px;
+}
+
+input[type="text"i],
+.error_msg {
+    font-size: 12px;
+}
+
+.f2_form .svg-inline--fa.fa-w-11 {
+    width: 15px;
+}
+
+.w_e,
+.upper_nav {
+    width: 84%;
+}
+
+}
+
+
+
+
+
+@media(min-width:350px) and (max-width:499px){
+    .heading {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .logo {
+        width: 90px;
+    }
+
+    .logo_container {
+        padding-top: 25px;
+    }
+
+    .num_val {
+        font-size: 11px;
+    }
+
+    .units {
+        font-size: 7px;
+        padding-left: 1px;
+    }
+
+    .f1 .svg-inline--fa,
+    .f2 .svg-inline--fa {
+        font-size: 10px;
+    }
+
+    .svg-inline--fa.fa-w-16,
+    .svg-inline--fa.fa-w-11 {
+        width: 30px;
+    }
+
+    .f1 {
+        right: 30px;
+    }
+
+    /********* Form ********/
+    #Type,
+    .w_e input {
+        width: 65px;
+        height: 16px;
+    }
+
+    .sec_option {
+        padding-top: 14px;
+    }
+
+    .second_inp {
+        margin-top: 12px;
+    }
+
+    input[type="text"i],
+    .error_msg,
+    .col-3 {
+        font-size: 12px;
+    }
+
+    .f2_form .svg-inline--fa.fa-w-11 {
+        width: 15px;
+    }
+
+    .w_e,
+    .upper_nav {
+        width: 84%;
+    }
+
+}
+
+@media(min-width:350px) and (max-width:991px){
+    .move_up_btn {
+        position:absolute;
+        display: block;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        opacity: 0.7;
+        text-align: center;
+        border-radius: 5px;
+        background-color: rgb(26, 24, 24);
+        position: absolute;
+        top: 186%;
+        left: 86%;
+        z-index: 1000000000;
+    }
+    body {
+        overflow-x: scroll;
+    }
+}

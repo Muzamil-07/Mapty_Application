@@ -1,0 +1,272 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    overflow-x: hidden
+}
+
+.app {
+    width: 100%;
+    height: 100vh;
+}
+
+.workout_container {
+
+    height: 100vh;
+    background-color: #2d3439;
+    padding: 0;
+    position: relative;
+}
+
+.map_container {
+    height: 100vh;
+    background-color: #aaa;
+    padding: 0;
+}
+
+.logo {
+    width: 130px;
+}
+
+.logo_container {
+    padding-top: 25px;
+}
+
+.work_summary {
+    width: 90%;
+    margin-inline: auto;
+}
+.upper_nav{
+    width: 82%;
+    margin-inline: auto;
+    padding-top: 20px;
+}
+.upper_nav>.col-6{
+    padding: 0;
+}
+
+.workout_entries {
+    height: 69%;
+    overflow-y: scroll;
+}
+
+.workout_entries::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.workout_entries {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    margin-top: 10px;
+    /* transition: all 0.7s; */
+}
+
+.form_btn {
+    display: none;
+}
+
+.w_e {
+    background-color: #42484d;
+    width: 82%;
+    margin-inline: auto;
+    color: white;
+    padding: 14px 0;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    position: relative;
+    
+}
+
+.heading {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+.units {
+    color: rgb(185, 178, 178);
+    font-size: 10px;
+    padding-left: 2px;
+}
+
+.pop_cycling .leaflet-popup-content-wrapper,
+.type_cycling {
+    border-left: 5px solid #ffb545;
+}
+
+.pop_running .leaflet-popup-content-wrapper,
+.type_running {
+    border-left: 5px solid #00c46a;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+    background-color: #2d3439;
+    border-radius: none;
+    color: white;
+    border-radius: 8px;
+    background-color: #2d3439;
+}
+
+
+
+.num_val {
+    font-size: 15px;
+}
+
+.type_cycling:hover,
+.type_running:hover {
+    cursor: pointer;
+}
+
+.trans_100 {
+    transform: translateY(-100%);
+}
+
+.trans_0 {
+    transform: translateY(0%);
+}
+
+.hidden {
+    display: none;
+}
+
+/********* Last Msg ***********/
+
+.last_msg {
+    color: rgb(199, 199, 199);
+}
+
+.last_msg>p {
+    width: 75%;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+/****** Form *****/
+#Type,
+.w_e input {
+    width: 90px;
+    height: 25px;
+    border-radius: 3px;
+    background-color: rgb(214, 222, 224);
+    border: none;
+}
+
+#Type:active,
+#Type:focus,
+.w_e input:active,
+.w_e input:focus {
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.col-3 {
+    padding: 0;
+    font-size: 15px;
+}
+
+.sec_option {
+    padding-top: 14px;
+}
+
+.second_inp {
+    margin-top: 8px;
+}
+
+input[type="text"i] {
+    padding-left: 6px;
+    font-size: 14px;
+}
+
+/******************* fav icons  *******************/
+.fav_icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.svg-inline--fa.fa-w-16,
+.svg-inline--fa.fa-w-11 {
+    width: 36px;
+}
+
+.f1 {
+    right: 36px;
+}
+
+.f1:hover {
+    background-color: #00c46a;
+}
+
+.f2:hover {
+    background-color: #ff3547;
+}
+.f1:active{
+    background-color: #00c469b2;
+}
+.f2:active{
+   background-color:#ff3546cc;
+}
+
+.svg-inline--fa.fa-w-14:active {
+    color: #ce0012;
+}
+
+.f2_form .svg-inline--fa.fa-w-11 {
+    width: 20px;
+}
+
+.f2_form {
+    background-color: #ff3547;
+}
+
+.f1 .svg-inline--fa,
+.f2 .svg-inline--fa {
+    font-size: 12px;
+}
+
+.f_delete {
+    font-size: 20px;
+    color: #ff3547;
+    width:18px;
+    height:20px;
+    margin-left:auto;
+}
+
+/********** Sort Button **********/
+.sort_btn{
+    padding-top:4px;
+    padding-bottom:4px;
+    padding-inline:8px;
+    margin: 0;
+    font-size: 11px;
+    color:black;
+    font-weight: 600;
+    background-color:#00c46a;
+}
+.sort_btn:hover{
+    background-color:#01e279;
+    color: white;
+}
+.sort_btn:focus,
+.sort_btn:active {
+    background-color: #00c469b2;
+    color: white;
+}
+.sort_values{
+    font-size: 12px;
+    font-weight:600;
+}
+.move_up_btn{
+    display: none;
+}
